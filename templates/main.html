@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<title>The Main store</title>
+</head>
+
+<body>
+
+  <h1 style="color:red;font-size:50px"">Main Store</h1>
+
+  <p>Welcome to the Coder Joe's Main page. Click our links to get food recipes or links to different parts of our webstie</p>
+
+  <h1 style="color:red;">What's New</h1>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    </head>
+    <body>
+
+    <div class="row">
+      <div class="column">
+        <img src="{{ url_for('static', filename='pasta.jpg') }}"
+            width="300" height="221" >
+      </div>
+      <div class="column">
+        <img src="{{ url_for('static', filename='salad.jpg') }}"
+              width="250" height="300" >
+      </div>
+      <div class="column">
+        <img src="{{ url_for('static', filename='sandwich.jpg') }}"
+        width="350" height="250" >
+      </div>
+    </div>
+
+    </body>
+    </html>
+
+  <h1 style="color:red;">Our Famous Pizza Recipe</h1>
+    <img src="{{ url_for('static', filename='pizza.png') }}"
+          width="400" height="250" >
+  <p>- 1/2 recipe homemade pizza crust<p>
+  <p>- 1/2–3/4 cup (127-190g) pizza sauce, depending how much you like (homemade or store-bought)<p>
+  <p>- 8 ounces sliced mozzarella cheese<p>
+  <p>- 1 and 1/2 cups (6oz or 168g) shredded mozzarella cheese<p>
+  <p>- 2–3 Tablespoons (10-15g) grated parmesan cheese ground basil or Italian seasoning, to taste<p>
+
+</body>
+
+
+</html>

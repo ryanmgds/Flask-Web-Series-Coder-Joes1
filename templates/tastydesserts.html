@@ -1,0 +1,108 @@
+<html>
+
+<head>
+<title>tasty desserts</title>
+</head>
+
+<body>
+
+  <h1>Tastey Desserts</h1>
+
+  <p>We have many options for you to choose from. Please click on the links to go to our healthy options</p>
+
+
+  {% for dessert in desserts%}
+
+  <h2>{{ dessert.name }}</h2>
+
+  {% endfor %}
+
+
+
+  <h1 style="color:red;">Brownies</h1>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    </head>
+    <body>
+                   
+ <div class="row" style="padding-left: 10%;">
+                  <div class="col-4">
+                      <img src="{{ url_for('static', filename='brownie.jpg') }}">
+                      <a href="https://www.allrecipes.com/recipe/10549/best-brownies/" class="btn">Brownies</a>
+<p>Our chocolate brownie is a square or rectangular chocolate baked bite of perfection. Our brownies come in a variety of sizes but will still give you that sweet chocolaty taste you desire. <p>
+  <h1 style="color:red;">Pumkin Pie</h1>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    </head>
+    <body>
+
+  <div class="row" style="padding-left: 10%;">
+                  <div class="col-4">
+                    <img src="{{ url_for('static', filename='pumpkinpie.jpg') }}">
+                      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiV-eWDo8LsAhVCj54KHcdQA38QrbMEMAF6BAgDEAk&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F23439%2Fperfect-pumpkin-pie%2F&usg=AOvVaw21c7IFQcrKjAROMlyQNHYa" class="btn">pumpkin pie</a>
+  <p>Pumpkin pie is our dessert pie with a spiced, pumpkin-based custard filling. The pumpkin is a freshly harvested from our fields in order to give you that deliciuos pumpkin taste.<p>
+
+  <h1 style="color:red;">Tiramisu</h1>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    </head>
+    <body>
+
+                      
+ <div class="row" style="padding-left: 10%;">
+                  <div class="col-4">
+                    <img src="{{ url_for('static', filename='tiramisu.jpg') }}">
+                      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiDrOC3o8LsAhUXpJ4KHfD8DBsQrbMEMAB6BAgCEAY&url=https%3A%2F%2Fsallysbakingaddiction.com%2Ftiramisu%2F&usg=AOvVaw0du9JY096rgcfSr4TJGTdY" class="btn">Tiramisu</a>
+ <p>Tiramisu is our coffee flavoured Italian dessert. It is made of ladyfingers dipped in coffee, layered with a whipped mixture of eggs, sugar and mascarpone cheese, flavoured with cocoa.<p>
+</body>
+
+
+</html>
