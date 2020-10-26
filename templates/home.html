@@ -1,0 +1,236 @@
+<html>
+  
+    <head>
+        <h1 style="color:white; font-size:50px">WEB PROJECT</h1>
+        <h3 style="color:white"> AP Comp Sci Principles 2020 - 2021</h3>
+        <div class="col-4">
+          <html>
+            <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            body {
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .topnav {
+              height: max-content;
+              width: 1153;
+              overflow: hidden;
+              background-color: #333;
+            }
+
+            .topnav a {
+              float: left;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+
+            .topnav a.active {
+              background-color: #4CAF50;
+              color: white;
+            }
+            </style>
+            </head>
+            <body>
+
+            <div class="topnav">
+              <a style="font-size:15px"href="https://repl.it/join/ifsqbwmk-braydenbasinger" class="btn">Old Project</a>
+              <a style="font-size:15px"href="https://docs.google.com/document/d/195ufKtiSPaWnABwdasopKtVg3hepnvz3xwAHxFs5XAo/edit?usp=sharing" class="btn">Project Plan Week 6</a>
+              <a style="font-size:15px"href="https://docs.google.com/document/d/1pZ_1B73ab_mSs0KCjSCjunqlYNhVLUYgHCUJI-eyBb4/edit?usp=sharing" class="btn">Project Concept</a>
+              <a style="font-size:15px"href="https://docs.google.com/document/d/1YHzoimlYnXwGREC1HLFnh6Uq4z4oAGNSUDmFtDk24tU/edit?usp=sharing" class="btn">Journal-Brayden, Billy and Lola</a>
+              <a style="font-size:15px"                   href="https://docs.google.com/document/d/1gujp2Y736AuA5281oYEUouxItbU_b3Ntq_5H199rxXk/edit?usp=sharing" class="btn">Journal-Grace and Ryan</a>      
+            </div>
+
+            <div style="padding-left:16px">
+
+            </div>
+
+            </body>
+            </html>
+                    
+                  </div>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <style>
+      body{ 
+        background-image: url('cool-backgrond.jpg'); 
+        background-repeat: no-repeat;
+        animation: bg-animation 10s infinite;
+
+        }
+
+        @-webkit-keyframes bg-animation {
+
+        }
+
+        @keyframes bg-animation {
+            0% {
+                background-color: #f57e42;
+            }
+            25% {
+                background-color: #1f5d9c;
+            }
+            50% {
+                background-color: #781416;
+            }
+            75% {
+                background-color: #60d66c;
+            }
+            100% {
+                background-color: #EC9F20;
+            }
+
+        }
+
+    </style>
+
+    </style>
+
+
+        <div class="container-fluid">
+
+          <img src="{{ url_for('static', filename='coderjo.jpg') }}">
+
+
+            <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
+
+                <div class="col-2" style="text-align: right;">
+                    <h6> Brayden, Grace, Ryan, Billy, Lola </h6>
+                    
+                    <a 
+                    href="/shoppingbag" target="_blank"><i class="fa fa-shopping-bag"></i></a>
+                    <a href="https://www.youtube.com/c/buzzfeedtasty/videos" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                      
+                </div>
+
+            </div>
+
+
+            <div class="product" style="margin-top: 5%;">
+              <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;" 
+            </div>
+            <html>
+
+              <head>
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <style>
+              .dropbtn {
+                background-color: #FFFFFF ;
+                color: black;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+              }
+
+              .dropbtn:hover, .dropbtn:focus {
+                background-color: #DFE1E1  ;
+              }
+
+              .dropdown {
+                position: relative;
+                display: inline-block;
+              }
+
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                overflow: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+
+              .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+              }
+
+              .dropdown a:hover {background-color: #ddd;}
+
+              .show {display: block;}
+              </style>
+              </head>
+              <body>
+
+              <h1 style="color:red; font-size:30px">Coder Joe's </h1>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn" >Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="/healthylunches" style ="font-size:15px">Healty Lunches</a>
+                  <a href="/healthydinners" style ="font-size:15px">Healthy Dinners</a>
+                  <a href="/tastydesserts" style ="font-size:15px">Tasty Desserts</a>
+                </div>
+              </div>
+
+              <script>
+              /* When the user clicks on the button, 
+              toggle between hiding and showing the dropdown content */
+              function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+              }
+
+              // Close the dropdown if the user clicks outside of it
+              window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  var i;
+                  for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                      openDropdown.classList.remove('show');
+                    }
+                  }
+                }
+              }
+              </script>
+
+              </body>
+              </html>
+          
+            </div>
+
+
+            <div class="product" style="margin-top: 5%;">
+              <div class="row" style="padding: 15%; padding-top: 0%; padding-bottom: 5%;">
+
+                  <div class="col-2" style="color:white" >
+                      <h3>Other</h3>  
+                  </div>
+
+              </div>
+              <div class="row" style="padding-left: 10%;color:white">
+
+                  <div class="col-2">
+                      <a href="https://youtu.be/GPWMJ7X6dlo" class="btn" style="color:white">Comp Sci Videos</a>
+                  </div>
+
+                  <div class="col-2">
+                      <a href="https://docs.google.com/document/d/1zDNb11dlrmnRZF113hnvBSlaVz9tiUrqYcC6ofZKm2M/edit?usp=sharing" class="btn" style="color:white">Jokes</a>
+                  </div>
+
+              </div>
+
+            </div>
+
+
+        </div>
+
+    </body>      
+
+</html>
