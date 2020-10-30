@@ -6,16 +6,47 @@
 
 <body>
 
-  <h1>Tastey Desserts</h1>
+  <h1>Tasty Desserts</h1>
 
   <p>We have many options for you to choose from. Please click on the links to go to our healthy options</p>
 
+                    <h6> If you want to go back to the home page, please click the home icon below.</h6>
+
+                    <a 
+                    href="/" target="_blank"><i class="fa fa-home"></i> RETURN HOME</a>
+ 
+                </div>
+
+            </div>
 
   {% for dessert in desserts%}
 
   <h2>{{ dessert.name }}</h2>
 
   {% endfor %}
+
+
+    </style>
+
+
+        <div class="container-fluid">
+                  <a 
+                    href="/" target="_blank"><i class="fa fa-home"></i></a>
+
+            <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
+
+                <div class="col-2" style="text-align: right;">
+                    <h6> click home button to return home</h6>
+                    
+            
+                    <a 
+                    href="/" target="_blank"><i class="fa fa-home"></i></a>
+
+                  
+                      
+                </div>
+
+            </div>
 
 
 
@@ -46,6 +77,7 @@
                       <img src="{{ url_for('static', filename='brownie.jpg') }}">
                       <a href="https://www.allrecipes.com/recipe/10549/best-brownies/" class="btn">Brownies</a>
 <p>Our chocolate brownie is a square or rectangular chocolate baked bite of perfection. Our brownies come in a variety of sizes but will still give you that sweet chocolaty taste you desire. <p>
+  
   <h1 style="color:red;">Pumkin Pie</h1>
     <style>
     * {
