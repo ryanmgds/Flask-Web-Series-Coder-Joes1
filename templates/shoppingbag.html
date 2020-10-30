@@ -9,8 +9,67 @@
   
   <h1 style="color:blue;">Shopping Cart</h1>
 
-  <p>This is where you will add ingredients and dishes you want so you can buy your food. </p>
+  <p>This is where you will pick your lunch, dinner, and dessert choices for today. Have fun! </p>
 
+   <h6> If you want to go back to the home page, please click the home icon below.</h6>
+
+                    <a 
+                    href="/" target="_blank"><i class="fa fa-home"></i> RETURN HOME</a>
+
+  <h1 style="color:red;">Chicken Stir Fried</h1>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    </head>
+    <body>
+                                                            
+ <div class="row" style="padding-left: 10%;">
+                  <div class="col-4">
+                      <img src="{{ url_for('static', filename='chickenstirfried.jpg') }}"width="300" height="221">
+                      <a href=# class="btn">e</a>
+<p>12.99<p>
+
+  <h1 style="color:red;">Vegetable soup</h1>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    </head>
+    <body>
+<div class="row" style="padding-left: 10%;">
+                  <div class="col-4">
+                    <img src="{{ url_for('static', filename='split-pea-soup-5.jpg') }}"width="300" height="221">
+                      <a href=$ class="btn"></a>
+                      <p> 10.99$ <p>
 
 
 </body>
