@@ -27,7 +27,7 @@ This week I was able to achieve my goals so I could work focus on next weeks ass
 
 ### Scrum Master Grades
 Billy- 5/5, Billy took a leadership role this week and completed all his tasks and helped the rest of the group with theirs. His addition of links and icons were a big improvement this week and he did a great job.
-Brayden- 45/5, Brayden worked on the background and icons this week, and polished our website with finishing touches that make our site look more organized and professional.
+Brayden- 5/5, Brayden worked on the background and icons this week, and polished our website with finishing touches that make our site look more organized and professional.
 Grace- 5/5, Grace also took on a leadership role this week and made a lot of advanced improvements by implementing a a slideshow and helping Lola complete her tasks with some advice.
 Lola- 5/5, I put effort into communicating with the group this week and making sure we completed all of our requirments, and I also personally completed the tasks assigned to me by the group like working on the Whats New page and keeping track of class updates.
 Ryan- 5/5, Ryan helped our team with GitHub and IntelliJ issues, worked on the formatting and spacing in our website, and overall put in a lot of effort this week to complete his tasks.
